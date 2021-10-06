@@ -42,8 +42,7 @@ body {
 			background-position: 0% 50%;
 		}
 	}
-
-
+ 
 
 ul {
 	margin-left: auto;
@@ -53,6 +52,35 @@ ul {
 	padding:0;
 	width:500px;
 }
+
+        @media only screen and (max-width:600px) {
+            body{
+                padding: 0;
+                margin: 15px;
+	            font-size: 5px;
+
+            }
+            .overlay{
+                padding: 10px;
+                width: 100%;
+                border-radius: 2rem;
+                align-items: center;
+                box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.125);
+            }
+            ul{
+                width: 450px;
+                margin: 0%;
+            }
+            ul li label {
+                max-width: 450px;
+            }
+            ul li input[type='checkbox'] {
+                display: none;
+                 width: 450px;
+            }
+           
+  }
 
 ul li label {
 	/* box-shadow: 3px 2px 1px #00000075; */
@@ -206,6 +234,20 @@ ul ul li:last-child {
   }
 #myBtnContainer button:hover {
 	border-radius: 0;
+  }
+
+  @media only screen and (max-width:600px){
+      #myBtnContainer{
+         width: 100%;
+         text-align: center;
+         padding: 10px;
+      }
+      #myBtnContainer button{
+        
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
   }
   .btn {
 	text-align: center;
