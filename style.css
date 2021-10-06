@@ -56,7 +56,8 @@ ul {
         @media only screen and (max-width:600px) {
             body{
                 padding: 0;
-                margin: 15px;
+                margin-left: auto;
+                margin-right: auto;
 	            font-size: 5px;
 
             }
@@ -221,7 +222,7 @@ ul ul li:last-child {
 	margin-bottom: 20px;
 	margin-left: auto;
     margin-right: auto;
-	margin-top:50px;
+	margin-top:20px;
 	width: 45%;
 	text-align: center;
 	background: #fff;
@@ -243,7 +244,6 @@ ul ul li:last-child {
          padding: 10px;
       }
       #myBtnContainer button{
-        
         margin-left: 5px;
         margin-right: 5px;
     }
