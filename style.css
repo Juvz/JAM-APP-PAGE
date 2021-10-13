@@ -52,16 +52,12 @@ ul {
 	width:500px;
 }
   
-@media (max-width: 768px) { /*breakpoint*/
-	body{
-	  text-align: center;
-	  flex-basis: 100%;
-	 }
-	}	
+
 			@media only screen and (max-width:600px) 
 			 {
             body{
                 padding: 0;
+				flex-basis: 100%;
                 margin-left: auto;
                 margin-right: auto;
 	            font-size: 5px;
