@@ -1,9 +1,6 @@
 * {
 
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin: 0%;
 	padding: 0%;
@@ -17,13 +14,12 @@ body {
 	place-items: center;
 	max-width: 1620px;
   	min-height: 100vh;
-  	display: grid;
-  	place-items: center;
   	padding: 2rem;
 }
+
 .overlay {
-padding-left: 15px;
-padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   background: #fff;
   width: 100%;
   border-radius: 2rem;
@@ -53,27 +49,31 @@ ul {
 	padding:0;
 	width:500px;
 }
-  
 
 				@media (max-width:600px) 
 			 {
-            
+			
             .overlay{
-				
-                width: 100%;
-                border-radius: 2rem;
-                align-items: center;
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+				padding:15px;
+                max-width: 100%;
+                border-radius: 1rem;
                 box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
                 border: 1px solid rgba(46, 41, 41, 0.125);
             }
 
             ul{
+		      
+				font-size:8px;
 				margin-left: auto;
 				margin-right: auto;
                 width: 100%;
 				display: inline-block; 		
             }
             ul li label {
+				padding: 20px;
+				font-size:8px;
 				padding: 5px;
                 max-width: 100%;
 				display: inline-block; 
@@ -82,12 +82,13 @@ ul {
 				
             }
             ul li input[type='checkbox'] {
+				padding: 20px;
                 display: none;
                 width: 400px;
 				display: inline-block; 
 				text-align: left;
             }
-  }
+      }
 
 ul li label {
 	/* box-shadow: 3px 2px 1px #00000075; */
@@ -117,7 +118,7 @@ ul li label:hover {
 	}
 
 ul li i {
-	font-size:18px;
+
 	vertical-align: middle;
 	width:20px;
 	display:inline-block;
@@ -222,6 +223,7 @@ ul ul li:last-child {
 	text-align: center;
 }
 #myBtnContainer {
+	font-size:18px;
 	list-style: none;
 	box-shadow: 3px 3px 5px #00000075;
 	border-radius: 10px 10px 10px 10px;
@@ -245,22 +247,23 @@ ul ul li:last-child {
 
   @media (max-width:767px){
       #myBtnContainer{
-         width: 400px;
+		  /* toogle */
+		 display:block;
+         font-size:small;
+         width: 100%;
          text-align: center;
-         padding: 10px;
+         padding: 5px;
       }
       #myBtnContainer button{
-        margin-left: 5px;
-        margin-right: 5px;
+      	font-size:8px;
     }
-
   }
   .btn {
 	text-align: center;
 	border-radius: 10px 10px 10px 10px;
 	border: none;
 	outline: none;
-	padding: 12px 16px;
+	padding: 10px 16px;
 	background-color: #f1f1f1;
 	cursor: pointer;
   }
@@ -286,6 +289,3 @@ ul ul li:last-child {
 	font-size: 10px;
     color: #44c6eb;
 }
-
-  
- 
