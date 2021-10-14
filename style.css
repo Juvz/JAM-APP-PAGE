@@ -14,7 +14,6 @@ body {
 	place-items: center;
 	max-width: 1620px;
   	min-height: 100vh;
-  	padding: 2rem;
 }
 
 .overlay {
@@ -56,7 +55,7 @@ ul {
             .overlay{
 				margin-top: 1.5rem;
 				margin-bottom: 1.5rem;
-				padding:15px;
+				padding:20px;
                 max-width: 100%;
                 border-radius: 1rem;
                 box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
@@ -217,11 +216,7 @@ ul ul li:last-child {
   }
   
   /* Style the buttons */
-  h2{
-	margin-left: auto;
-    margin-right: auto;
-	text-align: center;
-}
+ 
 #myBtnContainer {
 	font-size:18px;
 	list-style: none;
@@ -256,7 +251,10 @@ ul ul li:last-child {
       }
       #myBtnContainer button{
       	font-size:8px;
+		margin:5px;
+		padding:5px;
     }
+	
   }
   .btn {
 	text-align: center;
