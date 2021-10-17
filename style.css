@@ -64,21 +64,21 @@ ul {
 
             ul{
 		      
-				font-size:8px;
+				font-size:7.5px;
 				margin-left: auto;
 				margin-right: auto;
                 width: 100%;
 				display: inline-block; 		
             }
             ul li label {
+				border-radius: 12px 10px 10px 12px;
 				padding: 20px;
-				font-size:8px;
+				font-size:7.5px;
 				padding: 5px;
                 max-width: 100%;
 				display: inline-block; 
 				margin-left: auto;
 				margin-right: auto;
-				
             }
             ul li input[type='checkbox'] {
 				padding: 20px;
